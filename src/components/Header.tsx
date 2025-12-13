@@ -1,4 +1,5 @@
 import { Wheat } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,12 +13,12 @@ const Header = () => {
           <Wheat className="h-5 w-5 text-secondary" />
         </div>
         <div className="hidden md:flex items-center gap-8">
-          <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
+          <Link to="/" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
             Home
-          </a>
-          <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
+          </Link>
+          <Link to="/articles" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
             Articles
-          </a>
+          </Link>
           <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
             Topics
           </a>
