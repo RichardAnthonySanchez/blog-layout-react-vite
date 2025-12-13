@@ -1,0 +1,36 @@
+import { Wheat } from "lucide-react";
+
+const Header = () => {
+  return (
+    <header className="w-full bg-primary py-4 px-6">
+      <nav className="max-w-6xl mx-auto flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <Wheat className="h-5 w-5 text-secondary" />
+          <span className="font-display text-lg font-semibold tracking-wide text-primary-foreground">
+            HARVEST & SCROLL
+          </span>
+          <Wheat className="h-5 w-5 text-secondary" />
+        </div>
+        <div className="hidden md:flex items-center gap-8">
+          <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
+            Home
+          </a>
+          <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
+            Articles
+          </a>
+          <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
+            Topics
+          </a>
+          <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
+            About
+          </a>
+        </div>
+        <button className="px-5 py-2 rounded-lg bg-secondary text-secondary-foreground font-semibold text-sm hover:bg-accent transition-colors">
+          Subscribe
+        </button>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
