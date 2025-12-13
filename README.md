@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# Earthy Blog (React + Vite)
 
-## Project info
+This project is a **simple personal blog setup** built with React and Vite.
+The goal is not scale, performance benchmarks, or feature density — just a clean place to write and publish pages with a **natural, earthy, editorial feel**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Purpose
 
-## How can I edit this code?
+- Create simple blog pages
+- Focus on readability and typography
+- Keep the layout calm, intentional, and uncluttered
 
-There are several ways of editing your application.
+## Stack
 
-**Use Lovable**
+- **React + Vite** — fast, minimal setup
+- **Tailwind CSS** — utility-first styling
+- **Radix UI / shadcn-style components** — used sparingly
+- **Playfair Display & Lato** — editorial typography
+- **React Router** — basic page navigation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Design Philosophy
 
-Changes made via Lovable will be committed automatically to this repo.
+- Editorial over application-like
+- Whitespace over borders
+- Typography first
+- Subtle interactions only
+- Neutral, earthy color palette (stone, clay, moss tones)
 
-**Use your preferred IDE**
+## What This Is _Not_
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- A CMS
+- A component showcase
+- A complex state-driven app
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Usage
 
-Follow these steps:
+This repo is meant to be:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Modified freely
+- Refactored without ceremony
+- Used as a personal writing space
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+No guarantees. No roadmap. Just a place to write.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Want it more minimal, more poetic, or more technical?**
+I can tune the tone in either direction or add a tiny “writing workflow” section if that’d help future-you.
