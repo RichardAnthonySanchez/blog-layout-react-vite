@@ -1,13 +1,4 @@
-const topics = [
-  "Mushrooms",
-  "Tinctures",
-  "Mycology",
-  "Wellness",
-  "Recipes",
-  "Sustainable Living",
-  "Natural Crafts",
-  "Foraging",
-];
+import { TOPICS } from "@/lib/data";
 
 const TopicsSection = () => {
   return (
@@ -18,7 +9,7 @@ const TopicsSection = () => {
         </h2>
 
         <div className="flex flex-wrap justify-center gap-3">
-          {topics.map((topic, index) => (
+          {TOPICS.map((topic, index) => (
             <button
               key={topic}
               className="topic-tag animate-fade-in"
