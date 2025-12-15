@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex items-center gap-2">
           <Wheat className="h-5 w-5 text-secondary" />
           <span className="font-display text-lg font-semibold tracking-wide text-primary-foreground">
-            HARVEST & SCROLL
+            GOLDCOAST SHROOMS
           </span>
           <Wheat className="h-5 w-5 text-secondary" />
         </div>
@@ -22,9 +22,9 @@ const Header = () => {
           <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
             Topics
           </a>
-          <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
+          <Link to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
             About
-          </a>
+          </Link>
         </div>
         <button className="px-5 py-2 rounded-lg bg-secondary text-secondary-foreground font-semibold text-sm hover:bg-accent transition-colors">
           Subscribe
