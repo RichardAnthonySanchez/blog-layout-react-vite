@@ -1,7 +1,7 @@
-import postOrganic from "@/assets/post-organic.jpg";
-import postSustainable from "@/assets/post-sustainable.jpg";
-import postBread from "@/assets/post-bread.jpg";
-import postDyes from "@/assets/post-dyes.jpg";
+import postOrganic from "@/assets/post-organic.png";
+import postSustainable from "@/assets/post-sustainable.png";
+import postBread from "@/assets/post-bread.png";
+import postDyes from "@/assets/post-dyes.png";
 
 const posts = [
   {
@@ -37,10 +37,10 @@ const FeaturedPosts = () => {
         <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-8 text-center">
           Featured Posts
         </h2>
-        
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {posts.map((post, index) => (
-            <article 
+            <article
               key={post.id}
               className="card-featured group cursor-pointer animate-scale-in"
               style={{ animationDelay: `${index * 0.1}s` }}

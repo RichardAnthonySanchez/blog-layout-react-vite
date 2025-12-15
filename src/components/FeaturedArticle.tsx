@@ -1,4 +1,4 @@
-import featuredArticle from "@/assets/featured-article.jpg";
+import featuredArticle from "@/assets/featured-tincture.png";
 
 const FeaturedArticle = () => {
   return (
@@ -9,22 +9,22 @@ const FeaturedArticle = () => {
             <div className="aspect-video md:aspect-auto overflow-hidden">
               <img
                 src={featuredArticle}
-                alt="The Art of Natural Living"
+                alt="Lion's Mane Tincture"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-8 flex flex-col justify-center">
               <span className="text-xs font-bold text-secondary uppercase tracking-widest mb-3">
-                🌿 Editor's Pick
+                🌿 Best Seller
               </span>
               <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground mb-4 leading-tight">
-                The Art of Natural Living
+                The Healing Power of Lion's Mane
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Discover the timeless practices that connect us to the earth. From morning rituals to evening reflections, embrace a life in harmony with nature's rhythms.
+                Discover our premium double-extracted mushroom tinctures, crafted to support cognitive health and focus. Sustainably harvested and potent.
               </p>
               <button className="btn-hero self-start text-base px-6 py-3">
-                Read More
+                Shop Tinctures
               </button>
             </div>
           </div>

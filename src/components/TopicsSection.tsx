@@ -1,12 +1,12 @@
 const topics = [
-  "Gardening",
+  "Mushrooms",
+  "Tinctures",
+  "Mycology",
+  "Wellness",
   "Recipes",
   "Sustainable Living",
   "Natural Crafts",
-  "Homesteading",
-  "Wellness",
-  "Slow Living",
-  "Seasonal",
+  "Foraging",
 ];
 
 const TopicsSection = () => {
@@ -16,7 +16,7 @@ const TopicsSection = () => {
         <h2 className="font-display text-xl md:text-2xl font-semibold text-foreground mb-6 text-center">
           Topics
         </h2>
-        
+
         <div className="flex flex-wrap justify-center gap-3">
           {topics.map((topic, index) => (
             <button
