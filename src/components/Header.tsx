@@ -26,9 +26,9 @@ const Header = () => {
             About
           </Link>
         </div>
-        <button className="px-5 py-2 rounded-lg bg-secondary text-secondary-foreground font-semibold text-sm hover:bg-accent transition-colors">
+        <Link to="/subscribe" className="px-5 py-2 rounded-lg bg-secondary text-secondary-foreground font-semibold text-sm hover:bg-accent transition-colors">
           Subscribe
-        </button>
+        </Link>
       </nav>
     </header>
   );
