@@ -16,6 +16,57 @@ The goal is not scale, performance benchmarks, or feature density — just a cle
 - **Radix UI / shadcn-style components** — used sparingly
 - **Playfair Display & Lato** — editorial typography
 - **React Router** — basic page navigation
+- **WordPress REST API** — content source
+
+## Getting Started
+
+### Prerequisites
+
+- **Node.js** (v18 or higher recommended)
+- **npm** or **yarn**
+- Access to a public WordPress site
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd blog-layout-react-vite
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+### Environment Setup
+
+> **⚠️ CRITICAL:** WordPress functionality will not work without proper environment configuration.
+
+1. **Create a `.env` file** in the root directory:
+   ```bash
+   cp .env.example .env
+   ```
+
+2. **Add your WordPress API URL** to the `.env` file:
+   ```env
+   VITE_WP_API_URL=https://public-api.wordpress.com/wp/v2/sites/your-wordpress-site.wordpress.com
+   ```
+
+   Replace `https://public-api.wordpress.com/wp/v2/sites/your-wordpress-site.wordpress.com` with your actual public WordPress REST API base URL.
+
+
+### Running Locally
+
+1. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+2. **Open your browser** and navigate to:
+   ```
+   http://localhost:8080
+   ```
 
 ## Design Philosophy
 
